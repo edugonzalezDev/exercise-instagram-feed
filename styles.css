@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.wrapper > header {
+    background-color: white;
+    padding: 20px 0;
+}
+h1, .photo-feed {
+    width: 600px;
+    margin: 0 auto;
+}
+.photo-card {
+    background-color: white;
+    margin-top: 50px;
+}
+.photo-card header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.photo-card header p {
+    text-align: right;
+}
+
+.photo-card header h2 {
+    width: 80%;
+}
+.photo-card header p {
+    width: 20%;
+}
+.photo-card header p {
+    color: gray;
+}
+.photo-container {
+    width: 100%;
+    min-height: 400px;
+    align-content: center;
+}
+.photo-container img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+.photo-footer {
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
