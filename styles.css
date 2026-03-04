@@ -36,8 +36,6 @@ h1, .photo-feed {
 }
 .photo-card header p {
     width: 20%;
-}
-.photo-card header p {
     color: gray;
 }
 .photo-container {
